@@ -7,11 +7,11 @@ genai.configure(api_key=st.secrets["GEMINI_API_KEY"])
 model = genai.GenerativeModel("gemini-3.5-flash")
 
 st.set_page_config(
-    page_title="AI Learning Buddy",
+    page_title="EcoMentor AI",
     page_icon="🎓"
 )
 
-st.title("🎓 AI Learning Buddy")
+st.title("🎓 EcoMentor AI")
 
 topic = st.text_input("Enter a Topic")
 
