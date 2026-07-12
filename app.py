@@ -42,15 +42,7 @@ if st.button("Generate"):
         elif option == "Generate Quiz":
             prompt = f"Create 5 multiple-choice questions on {topic} with answers."
 
-       else:
-    prompt = f"""
-You are EcoMentor AI.
-
-Answer the following question in a simple and beginner-friendly way.
-
-Question:
-{topic}
-"""
+      else: prompt = topic
 
         with st.spinner("Generating response..."):
             response = model.generate_content(prompt)
