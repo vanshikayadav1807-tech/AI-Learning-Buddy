@@ -1,9 +1,0 @@
-streamlit
-google-generativeai
-pyngrok
-
-
-
-
-
-
