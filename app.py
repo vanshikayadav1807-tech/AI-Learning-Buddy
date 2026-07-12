@@ -12,6 +12,7 @@ st.set_page_config(
 )
 
 st.title("🎓 EcoMentor AI")
+st.subheader("Your Personal Climate Change & Carbon Footprint Learning Assistant")
 
 topic = st.text_input("Enter a Topic")
 
