@@ -41,8 +41,8 @@ if st.button("Generate"):
 
         elif option == "Generate Quiz":
             prompt = f"Create 5 multiple-choice questions on {topic} with answers."
-
-      else: prompt = topic
+        else:
+          prompt = topic
 
         with st.spinner("Generating response..."):
             response = model.generate_content(prompt)
